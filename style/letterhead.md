@@ -2,7 +2,7 @@
 fontsize: 7pt
 lang: en
 geometry: left=22mm, right=10mm, top=50mm
-mainfont: "Minion Pro"
+mainfont: "Fira Sans"
 mainfontoptions:
     - Mapping=tex-text
     - Numbers=OldStyle

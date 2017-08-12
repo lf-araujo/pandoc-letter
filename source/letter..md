@@ -14,9 +14,10 @@ altfont: Fira Sans
 monofont: Fira Mono
 lang: en
 fontsize: 12pt
-geometry: a4paper, left=82mm, right=22mm, top=50mm, bottom=25mm
-letterhead: true
-# customdate: YYYY-MM-DD
+# if you remove the letterhead, remember to remove the borders of the page as well
+geometry: a4paper, left=82mm, right=22mm, top=50mm, bottom=25mm 
+letterhead: true 
+# to: Immigration Officer & Consular Officer
 ---
 
 Hello,
