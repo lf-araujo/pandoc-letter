@@ -54,9 +54,9 @@ help:
 all : tex docx html5 epub pdf
 
 
-pdf: $(LH) $(PDF)
+pdf: $(LH) $(PDF) 
 $(PDF): $(MD)
-	pandoc -o $@ source/*.md $(TEXTEMPLATE) $(TEXFLAGS) $(FILTERS) 2>output/pdf.log
+	pandoc -o $@ source/*.md $(TEXTEMPLATE) $(TEXFLAGS) 2>output/pdf.log
 	if [[ "$OSTYPE" == "darwin" ]]; then open $@; else xdg-open $@;fi
 
 $(LH): 

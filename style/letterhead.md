@@ -11,10 +11,12 @@ monofont: 'Fira Mono'
 header-includes:
 	- \usepackage[usenames,dvipsnames]{color}
 	- \usepackage{xcolor}
+include-before:
+	- \color{blue!30!black}
+	- \pagenumbering{gobble}
 ---
 
-\color{blue!30!black}
-\pagenumbering{gobble}
+
 **F. Nietzsche**
 
 \vspace{10mm} 
