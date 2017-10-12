@@ -20,7 +20,7 @@ letterhead: true
 # to: Immigration Officer & Consular Officer
 ---
 
-Hello,
+Hello, 
 
 
 This is a long letter to my friend

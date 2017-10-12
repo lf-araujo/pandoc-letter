@@ -21,7 +21,7 @@ include-before:
 
 \vspace{10mm} 
 
-Some department at the Uni
+Some department at the UniX
 
 The Building
 
