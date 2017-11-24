@@ -1,5 +1,12 @@
 # Letter Template for Pandoc
 
+If you are used to `mighty_make`, just do:
+
+```bash
+make fetch THEME="https://github.com/lf-araujo/pandoc-letter"
+```
+---
+
 It's been a while since the creation of [Mighty_Make](https://lf-araujo.github.io/2017/04/08/mightymake.html) and I have learned more about creating a builder with [GNU's Make](https://www.gnu.org/software/make/). The last  published  example on quickly creating a document with pandoc was a [letter pandoc template](https://lf-araujo.github.io/2017/04/08/zletter.html). Here it will be revisited, as the template received alterations over the last year. As usual the division between style, content, and tool will be followed and this small text will mainly discuss the style.
 
 For the production of the pandoc generated documents a strikingly effective workflow uses [Sublime Text 3](https://lf-araujo.github.io/2016/11/07/mdworkflow.html). This alone should take care of most text edition needs. 
@@ -12,7 +19,7 @@ In the yaml header a `letterhead: true` options is available. If present it will
 
 To follow the example one needs to have `git`, `pandoc`, `pandoc-citeproc`, and `pandoc-crossref` installed in the system. It starts by installing the package:
 
-```
+```bash
 git clone https://github.com/lf-araujo/pandoc-letter.git
 ```
 
